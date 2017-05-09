@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> should render with default props 1`] = `
+<form
+  className="form-signin"
+>
+  <FormGroup
+    bsClass="form-group"
+  >
+    <h2
+      className="form-signin-heading"
+    >
+      Please sign in
+    </h2>
+  </FormGroup>
+  <FormGroup
+    bsClass="form-group"
+  >
+    <FormControl
+      bsClass="form-control"
+      className="form-control"
+      componentClass="input"
+      id="email"
+      onChange={[Function]}
+      placeholder="Enter email"
+      type="string"
+      value="demo"
+    />
+    <FormControl
+      bsClass="form-control"
+      className="form-control"
+      componentClass="input"
+      id="password"
+      onChange={[Function]}
+      placeholder="Password"
+      type="password"
+      value="12345"
+    />
+  </FormGroup>
+  <Button
+    active={false}
+    block={false}
+    bsClass="btn"
+    bsSize="large"
+    bsStyle="primary"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Sign in
+  </Button>
+</form>
+`;

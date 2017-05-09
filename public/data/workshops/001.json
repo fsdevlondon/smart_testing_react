@@ -1,0 +1,14 @@
+{
+  "id": "001",
+  "title": "React Router and fetch data",
+  "url": "http://www.meetup.com/JS-Lab-London/events/231907561/",
+  "students" : "Unlimited",
+  "price": "Free",
+  "instructors": [
+    {
+      "name":"Alex Lobera",
+      "url": "http://alexlobera.com/",
+      "avatar": "https://pbs.twimg.com/profile_images/1540939151/whereIsAlexWithGlasses_400x400.jpg"
+    }
+  ]
+}

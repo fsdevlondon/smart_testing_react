@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Root /> should render with default props 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "__v2_compatible__": true,
+        "createHref": [Function],
+        "createKey": [Function],
+        "createLocation": [Function],
+        "createPath": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "listen": [Function],
+        "listenBefore": [Function],
+        "push": [Function],
+        "pushState": [Function],
+        "registerTransitionHook": [Function],
+        "replace": [Function],
+        "replaceState": [Function],
+        "setState": [Function],
+        "transitionTo": [Function],
+        "unregisterTransitionHook": [Function],
+      }
+    }
+    render={[Function]}
+  >
+    <Route>
+      <Route
+        component={[Function]}
+        onEnter={[Function]}
+        path="/"
+      >
+        <Route
+          component={[Function]}
+          path="users"
+        >
+          <Route
+            component={[Function]}
+            path=":username"
+          />
+        </Route>
+        <Route
+          component={[Function]}
+          path="workshops"
+        >
+          <Route
+            component={[Function]}
+            path=":workshop"
+          />
+        </Route>
+        <IndexRoute
+          component={[Function]}
+        />
+      </Route>
+      <Route
+        component={[Function]}
+        path="login"
+      />
+    </Route>
+  </Router>
+</Provider>
+`;

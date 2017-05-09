@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.app-bar h1 {
+	color: white !important;
+}
+
+.app-view {
+	display: flex;
+	height: 100vh;
+}
+
+.app-view .app-bar {
+	display: flex;
+	flex: 0 0 auto;
+}
+
+.app-view  .main-view {
+	display: flex;
+	overflow: hidden;
+	flex: 1;
+	flex-flow: row wrap;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	justify-content: flex-start;
+	order: 0;
+	flex-flow: column nowrap;
+	align-items: stretch;
+}
+
+.app-view .view-container {
+	display: flex;
+	flex: 1;
+}
+
+.app-view .view-container .view {
+	flex: 1;
+	overflow-y: auto;
+	margin: 8px;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.form-signin .form-signin-heading {
+	margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+
+

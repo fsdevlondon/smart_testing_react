@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfileContainer /> <ConnectedUserProfileContainer /> should render connected component 1`] = `
+<UserProfileContainer
+  dispatch={[Function]}
+  params={
+    Object {
+      "username": "123",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "notify": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": null,
+    }
+  }
+  user={
+    Object {
+      "email": "manolo@gmail.com",
+      "gender": "male",
+      "name": Object {
+        "first": "Manolo",
+        "last": "lama",
+        "title": "mr",
+      },
+    }
+  }
+/>
+`;
+
+exports[`<UserProfileContainer /> should render with default props 1`] = `
+<UserProfile
+  params={
+    Object {
+      "username": "123",
+    }
+  }
+  user={Object {}}
+  username="123"
+/>
+`;

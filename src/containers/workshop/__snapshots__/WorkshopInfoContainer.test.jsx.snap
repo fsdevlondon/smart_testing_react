@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserProfileContainer /> <ConnectedWorkshopInfoContainer /> should render connected component 1`] = `
+<WorkshopInfoContainer
+  dispatch={[Function]}
+  params={
+    Object {
+      "workshop": "123",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "notify": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": null,
+    }
+  }
+  workshop={
+    Object {
+      "instructors": Array [
+        Object {
+          "avatar": "",
+          "name": "Paco",
+          "url": "",
+        },
+      ],
+      "price": 990,
+      "title": "reactjs_advanced",
+      "url": "https://reactjs.academy/react-redux-training-london",
+    }
+  }
+/>
+`;
+
+exports[`<UserProfileContainer /> should render with default props 1`] = `
+<WorkshopInfo
+  params={
+    Object {
+      "workshop": "123",
+    }
+  }
+  workshop={Object {}}
+/>
+`;

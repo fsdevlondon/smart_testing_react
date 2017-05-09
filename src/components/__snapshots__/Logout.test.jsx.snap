@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logout /> should render with default props 1`] = `
+<FlatButton
+  disabled={false}
+  fullWidth={false}
+  label="Logout"
+  labelPosition="after"
+  labelStyle={Object {}}
+  onClick={[Function]}
+  onKeyboardFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={[Function]}
+  primary={false}
+  secondary={false}
+  style={
+    Object {
+      "color": "",
+    }
+  }
+/>
+`;

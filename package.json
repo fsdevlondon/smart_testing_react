@@ -120,7 +120,7 @@
     "prettier-standard": "^3.0.1",
     "raw-loader": "^0.5.1",
     "react-addons-test-utils": "^15.5.1",
-    "react-dev-utils-academy": "git+ssh://git@github.com:brolopers-ventures/react-dev-utils-brolopers.git",
+    "react-dev-utils-academy": "https://github.com/reactjs-academy/react-dev-utils-academy.git",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-tap-event-plugin": "^2.0.1",
     "react-test-renderer": "^15.5.4",
